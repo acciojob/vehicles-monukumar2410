@@ -11,12 +11,15 @@ public class Vehicle {
            this.currentSpeed = 0;
            this.currentDirection = 0;
     }
-    public int getSpeed(){
+
+    public int getCurrentSpeed() {
         return currentSpeed;
     }
+
     public int getCurrentDirection() {
         return currentDirection;
     }
+
     public void steer(int direction){
         //direction is in degrees, add it to the current direction
         this.currentDirection = this.currentDirection + direction;
